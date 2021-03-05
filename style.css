@@ -1,5 +1,12 @@
-@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
-@import url(http://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap);
+@font-face {
+    font-family: CabinSketch-Regular;
+    src: url(/homepage/font/CabinSketch-Regular.ttf);
+}
+
+@font-face {
+    font-family: NotoSansJP-Thin;
+    src: url(/homepage/font/NotoSansJP-Thin.otf);
+}
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
     margin: 0;
@@ -10,18 +17,18 @@ body {
     font-size: 16px;
     line-height: 1.4;
     font-weight: 300;
-    font-family: 'Noto Sans JP', Arial, Verdana, 游ゴシック, YuGothic,'ヒラギノ角ゴ ProN W3', 'Hiragino Kaku Gothic ProN', メイリオ, Meiryo,sans-serif;
+    font-family: NotoSansJP-Thin;
     background:#f0ebeb;
 }
 
 .wrap {
     margin: 0 auto;
     padding: 30px 0 30px 0;
-    max-width: 960px;
+    max-width: 1080px;
 }
 
 h1, h2 {
-    font-family: 'Cabin Sketch', cursive, 'Noto Sans JP', serif;
+    font-family: CabinSketch-Regular;
 }
 
 h1 {
@@ -52,6 +59,7 @@ img {
 
 .main-image {
     max-width: 100%;
+    text-align: center;
     height: auto;
     margin: 10px 0px 15px 0px;
 }
